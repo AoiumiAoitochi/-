@@ -53,11 +53,12 @@ p {
 /* ヘッダー */
 
 #logo {
+  text-transform: none; /* 大文字固定表示解除 */
+  font-style: italic;
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
   color: #fdfbfb;
-  background-color: #0000ff;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
@@ -67,6 +68,16 @@ p {
 #logo:hover {
   color: #555555;
   text-decoration: none;
+}
+
+.o {
+  font-style: italic;
+  font-size: 1.3em;
+  color: #fdfbfb;
+}
+
+.o:hover {
+  colpr: #505050;
 }
 
 /* デバッグウインドウ */
