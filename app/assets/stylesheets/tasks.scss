@@ -1,0 +1,10 @@
+
+.header-logo1 {
+  color: rgb(0, 0, 0);
+  transition: color 1s ease; /* ホバー時のトランジション効果を追加 */
+}
+
+.header-logo1:hover {
+  color: #00b41e;
+  background-color: transparent !important;
+}

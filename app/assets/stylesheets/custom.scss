@@ -70,14 +70,20 @@ p {
   text-decoration: none;
 }
 
-.o {
-  font-style: italic;
-  font-size: 1.3em;
-  color: #fdfbfb;
+nav {
+  background-color: transparent !important;
 }
 
-.o:hover {
-  colpr: #505050;
+.nav a {
+  font-style: italic;
+  font-size: 1.8em;
+  color: #fdfbfb;
+  transition: color 1s ease; /* ホバー時のトランジション効果を追加 */
+}
+
+.nav a:hover {
+  color: #242424;
+  background-color: transparent !important;
 }
 
 /* デバッグウインドウ */
@@ -108,3 +114,5 @@ p {
     color: $state-danger-text;
   }
 }
+
+
