@@ -1,0 +1,15 @@
+<header>
+  <div class="header-logo1">
+    <h1>タスク一覧</h1>
+  </div>
+</header>
+
+<div class="main posts-index">
+  <div class="container">
+   <% @posts.each do |post| %>
+    <div class="posts-index-item">
+      <%= link_to post.content, post_paht(post.id) %>
+    </div>
+   <% end %>
+  </div>
+</div>  
